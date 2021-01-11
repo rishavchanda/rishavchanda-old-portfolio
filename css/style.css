@@ -125,7 +125,6 @@ header nav .branding{
 
 .hero .right p{
     line-height: 1.9;
-
     margin-bottom: 2rem;
 
 }
@@ -164,9 +163,7 @@ section.about h3{
 }
 
 section.about p{
-    font-family: 'Lato' , sans-serif;
-    color: var(--ternary);
-    line-height: 1.8;
+    line-height: 1.9;
     margin-bottom: 2rem;
 }
 
@@ -654,11 +651,6 @@ footer .copyright{
         margin-top: 2rem;
         padding-left: 0rem;
         padding-right: 2rem;
-    }
-
-    .about .right p{
-        font-size: 0.1rem;
-
     }
 
     .about .left img{
