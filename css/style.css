@@ -733,7 +733,124 @@ footer .copyright{
 
 }
 
-@media (max-width:1024px){
+@media (max-width:900px){
+
+    .container{
+        max-width: 1024px;
+        padding-right:30px;
+        padding-left: 0px;
+        margin:0 auto;
+    }
+    header #main-nav{
+        display: none;
+    }
+    .hamberger{
+        padding-right: 4rem;
+        display: block;
+    }
+
+    .hero .left img{
+        width: 260px;
+    }
+
+    .hero .right h1{
+        font-size: 2rem;
+        padding-top: 0 4rem;
+        padding: 0 -2rem;
+    }
+
+    .hero .right h6{
+        font-size: 1rem;
+        padding-top: 0 1rem;
+        padding: 0 -2rem;
+    }
+
+    .hero{
+        padding-top: 14rem;
+        padding-right: 0rem;
+    }
+    .about-inner-wrap{
+        flex-direction: column;
+    }
+
+    .about .right{
+        text-align: center;
+        margin-top: 2rem;
+        padding: 0 1rem;
+    }
+
+    .about .right .social{
+     
+    header{
+        clip-path: polygon(0 0, 100% 0, 100% 100%,27% 89%, 0 100%);
+    }
+
+    section.about .about-me-img {
+        height: 16rem;
+        width: 20rem;
+    }
+
+    section.services .container{
+        padding-right: 0rem;
+    }
+
+    section.services .card-wrapper{
+        padding-left: 1rem;
+        padding-right: 2rem;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    section.work .card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        margin-left: 7rem;
+
+    }
+    section.work{
+        clip-path: polygon(0 0, 100% 0, 100% 100%,67% 95%, 0 100%);
+    }
+
+    section.work .container{
+        padding-right: 0rem;
+    }
+
+    section.freelancer{
+        clip-path: polygon(0 0, 100% 0, 100% 100%,67% 87%, 0 100%);
+    }
+
+    section.contact {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    section.contact .container{
+        padding-right: 0rem;
+    }
+
+
+
+    section.contact .input-wrap{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    section.contact .input-wrap-2{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    section.contact .card-wrapper{
+        margin-left: 0rem;
+        margin-right: 1rem;
+        padding-right: 0rem;
+    }
+
+    footer {
+        margin-right: 0rem;
+    }
+
+}
+
+@media (max-width:600px){
     .hero{
         flex-direction: column;
         padding-top: 6rem;
