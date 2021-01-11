@@ -642,15 +642,8 @@ footer .copyright{
     }
 
     .about {
+        text-align: center;
         padding-left: 1rem;
-    }
-
-    section.about .right p{
-        line-height: 1.9;
-        padding-bottom: 1rem;
-        padding-top: 1rem;
-        font-size: 0.8rem;
-
     }
 
     .about .right{
@@ -663,10 +656,6 @@ footer .copyright{
 
     .about .left img{
         padding-left: 0 1rem;
-    }
-
-    .about .right .social{
-        justify-content: center;
     }
 
 
