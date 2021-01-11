@@ -733,7 +733,7 @@ footer .copyright{
 
 }
 
-@media (max-width:753px){
+@media (max-width:1024px){
     .hero{
         flex-direction: column;
         padding-top: 6rem;
