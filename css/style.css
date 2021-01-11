@@ -200,6 +200,12 @@ section.about .social a img{
 
 
 }
+section.about .right p{
+    font-family: 'Lato' , sans-serif;
+    color: var(--ternary);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
 section.education {
     padding-top:4rem;
     padding-bottom: 10rem;
@@ -639,15 +645,20 @@ footer .copyright{
     }
 
     .about {
-        
         padding-left: 1rem;
     }
 
     .about .right{
+        
         text-align: center;
         margin-top: 2rem;
         padding-left: 0rem;
         padding-right: 2rem;
+    }
+
+    .about .right p{
+        font-size: 1rem;
+
     }
 
     .about .left img{
