@@ -13,10 +13,16 @@
 }
 body{
     font-family: 'Poppins',sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 *{
     padding: 0;
@@ -24,6 +30,7 @@ html{
     box-sizing: border-box;
     -webkit-font-smothing:anatialised;
 }
+
 
 header{
     background: var(--dark);
