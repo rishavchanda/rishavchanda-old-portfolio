@@ -861,8 +861,12 @@ section.education img{
     width: 270px;
     height: 220px;
 }
+section.education .left{
+    padding-right: 1rem;
+    padding-left: 0rem;
+}
 section.education .right{
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 section.education .container{
@@ -927,7 +931,7 @@ section.educationt p{
     section.work .container .card-wrapper{
         grid-template-columns: repeat(1,1fr);
         padding-right: 1rem;
-        padding-left: 2.5rem;
+        padding-left: 1rem;
         justify-content: center;
         margin-top: 6rem;
         margin-bottom: 6rem;
@@ -964,8 +968,8 @@ section.educationt p{
     }
 
     section.work .card-wrapper .card img{
-        height: 210px;
-        width: 260px;
+        height: 290px;
+        width: 360px;
     }
 
     section.work{
