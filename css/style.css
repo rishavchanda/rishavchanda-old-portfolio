@@ -308,7 +308,34 @@ section.contact .input-wrap-2{
     text-align: center;
 
 }
-
+.card-wrapper-projects{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 12rem;
+    margin-bottom: 10rem;
+}
+.projects_card_odd{
+    display: flex;
+    justify-content: space-between;
+}
+.cardImage_odd img{
+    width: 500px;
+}
+.cardTexts_odd{
+    margin-left: 20px !important;
+}
+.cardTexts_odd h2{
+   color: var(--deep)
+}
+.cardTexts_odd p{
+    color: var(--ternary);
+    padding: 10px;
+ }
+ .cardTexts_odd button{
+     padding: 10px;
+     margin: 10px;
+ }
 section.services{
     padding-top: 4rem;
     padding-bottom: 3rem;
