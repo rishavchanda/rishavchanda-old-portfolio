@@ -312,7 +312,7 @@ section.contact .input-wrap-2{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-column-gap: 0.5rem;
-    grid-row-gap: 12rem;
+    grid-row-gap: 10rem;
     margin-bottom: 10rem;
 }
 .projects_card_odd{
@@ -321,6 +321,8 @@ section.contact .input-wrap-2{
 }
 .cardImage_odd img{
     width: 500px;
+    box-shadow: rgb(0, 0, 0) 0px 7px 29px 0px !important;
+    border-radius: 10px;
 }
 .cardTexts_odd{
     margin-left: 20px !important;
